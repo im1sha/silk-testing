@@ -1,0 +1,26 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="Alison Wonderland - Easy   foobar2000" locator="/Window[@caption=&apos;Alison Wonderland - Easy  [foobar2000]&apos;]">
+    <ObjectMapEntry id="Add files" locator="//MenuItem[@caption=&apos;Add files&apos;]"/>
+    <ObjectMapEntry id="Add Files" locator="//Dialog[@caption=&apos;Add Files&apos;]">
+      <ObjectMapEntry id="DirectUIHWND" locator="//Control[@windowClassName=&apos;DirectUIHWND&apos;][2]"/>
+      <ObjectMapEntry id="File name" locator="//TextField[@caption=&apos;File name:&apos;]"/>
+      <ObjectMapEntry id="Files of type" locator="//Tree[@caption=&apos;Files of type:&apos;]"/>
+      <ObjectMapEntry id="Open" locator="//PushButton[@caption=&apos;Open&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="ATL SysTabControl32" locator="//Control[@windowClassName=&apos;ATL:SysTabControl32&apos;]"/>
+    <ObjectMapEntry id="ATL ToolbarWindow32" locator="//Control[@windowClassName=&apos;ATL:ToolbarWindow32&apos;]"/>
+    <ObjectMapEntry id="Open" locator="//MenuItem[@caption=&apos;Open&apos;]"/>
+    <ObjectMapEntry id="Open Dialog" locator="//Dialog[@caption=&apos;Open&apos;]">
+      <ObjectMapEntry id="DirectUIHWND" locator="//Control[@windowClassName=&apos;DirectUIHWND&apos;][2]"/>
+      <ObjectMapEntry id="Files of type" locator="//Tree[@caption=&apos;Files of type:&apos;]"/>
+      <ObjectMapEntry id="Open" locator="//PushButton[@caption=&apos;Open&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Properties" locator="//MenuItem[@caption=&apos;Properties&apos;]"/>
+    <ObjectMapEntry id="Properties (3 items) -  Alison" locator="//Dialog[@caption=&apos;Properties (3 items) - &quot;Alison Wonderland - Easy&quot;, &quot;Moon Taxi - Let the Record Play&quot;, &quot;Strangers&quot;&apos;]">
+      <ObjectMapEntry id="ListView" locator="//ListView"/>
+      <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
+      <ObjectMapEntry id="TabControl" locator="//TabControl"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}" locator="//Control[@windowClassName=&apos;{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}&apos;]"/>
+  </ObjectMapEntry>
+</ObjectMap>

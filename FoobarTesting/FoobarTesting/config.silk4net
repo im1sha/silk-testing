@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recorderProject version="19.5">
+  <applicationConfiguration>
+    <moduleNamePattern>*\foobar2000.exe</moduleNamePattern>
+    <baseStateInfo>
+      <executable>%ProgramFiles(x86)%\foobar2000\foobar2000.exe</executable>
+      <workingDirectory>%ProgramFiles(x86)%\foobar2000</workingDirectory>
+      <locator>foobar2000 v1 4 1</locator>
+    </baseStateInfo>
+  </applicationConfiguration>
+  <agentOptions>
+    <entry>
+      <string>OPT_OBJECT_ENABLED_TIMEOUT</string>
+      <int>10000</int>
+    </entry>
+  </agentOptions>
+</recorderProject>

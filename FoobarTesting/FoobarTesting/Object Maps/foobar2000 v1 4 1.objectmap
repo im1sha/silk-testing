@@ -1,0 +1,121 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="foobar2000 v1 4 1" locator="/Window[@caption=&apos;foobar2000 v1.4.1&apos;]">
+    <ObjectMapEntry id="#32770" locator="//Control[@windowClassName=&apos;#32770&apos;]"/>
+    <ObjectMapEntry id="About" locator="//MenuItem[@caption=&apos;About&apos;]"/>
+    <ObjectMapEntry id="About foobar2000" locator="//Dialog[@caption=&apos;About foobar2000&apos;]">
+      <ObjectMapEntry id="(C) Peter Pawlowski and contributors" locator="//Label[@caption=&apos;(C) Peter Pawlowski and contributors&apos;]"/>
+      <ObjectMapEntry id="foobar2000 v1 4 1" locator="//Label[@caption=&apos;foobar2000 v1.4.1&apos;]"/>
+      <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Add files" locator="//MenuItem[@caption=&apos;Add files&apos;]"/>
+    <ObjectMapEntry id="Add Files" locator="//Dialog[@caption=&apos;Add Files&apos;]">
+      <ObjectMapEntry id="DirectUIHWND" locator="//Control[@windowClassName=&apos;DirectUIHWND&apos;][2]"/>
+      <ObjectMapEntry id="File name" locator="//TextField[@caption=&apos;File name:&apos;]"/>
+      <ObjectMapEntry id="Files of type" locator="//Tree[@caption=&apos;Files of type:&apos;]"/>
+      <ObjectMapEntry id="Open" locator="//PushButton[@caption=&apos;Open&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="ATL SysTabControl32" locator="//Control[@windowClassName=&apos;ATL:SysTabControl32&apos;]"/>
+    <ObjectMapEntry id="ATL ToolbarWindow32" locator="//Control[@windowClassName=&apos;ATL:ToolbarWindow32&apos;]"/>
+    <ObjectMapEntry id="Attached Pictures  Thousand Foot Krutch - Scream mp3" locator="//Dialog[@caption=&apos;Attached Pictures: Thousand Foot Krutch - Scream.mp3&apos;]">
+      <ObjectMapEntry id="Add" locator="//PushButton[@caption=&apos;Add&apos;]"/>
+      <ObjectMapEntry id="Choose picture file to embed" locator="//Dialog[@caption=&apos;Choose picture file to embed&apos;]">
+        <ObjectMapEntry id="File name" locator="//TextField[@caption=&apos;File name:&apos;]"/>
+        <ObjectMapEntry id="Open" locator="//PushButton[@caption=&apos;Open&apos;]"/>
+      </ObjectMapEntry>
+      <ObjectMapEntry id="Front cover" locator="//MenuItem[@caption=&apos;Front cover&apos;]"/>
+      <ObjectMapEntry id="ListView" locator="//ListView"/>
+      <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
+      <ObjectMapEntry id="Remove" locator="//PushButton[@caption=&apos;Remove&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Converter Output" locator="//Dialog[@caption=&apos;Converter Output&apos;]"/>
+    <ObjectMapEntry id="File Operations Setup" locator="//Dialog[@caption=&apos;File Operations Setup&apos;]">
+      <ObjectMapEntry id="Close" locator="//PushButton[@caption=&apos;Close&apos;]"/>
+      <ObjectMapEntry id="File name pattern" locator="//TextField[@caption=&apos;File name pattern:&apos;]"/>
+      <ObjectMapEntry id="Presets" locator="//ListView[@caption=&apos;Presets&apos;]"/>
+      <ObjectMapEntry id="Preview" locator="//Control[@caption=&apos;Preview&apos;]"/>
+      <ObjectMapEntry id="Preview - nothing to do, destination matches source" locator="//Control[@caption=&apos;Preview - nothing to do, destination matches source&apos;]"/>
+      <ObjectMapEntry id="Run" locator="//PushButton[@caption=&apos;Run&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Header" locator="//Header"/>
+    <ObjectMapEntry id="Load playlist" locator="//MenuItem[@caption=&apos;Load playlist&apos;]"/>
+    <ObjectMapEntry id="Load Playlist" locator="//Dialog[@caption=&apos;Load Playlist&apos;]">
+      <ObjectMapEntry id="DirectUIHWND" locator="//Control[@windowClassName=&apos;DirectUIHWND&apos;][2]"/>
+      <ObjectMapEntry id="Open" locator="//PushButton[@caption=&apos;Open&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Manage attached pictures" locator="//MenuItem[@caption=&apos;Manage attached pictures&apos;]"/>
+    <ObjectMapEntry id="Next" locator="//MenuItem[@caption=&apos;Next&apos;]"/>
+    <ObjectMapEntry id="Open" locator="//MenuItem[@caption=&apos;Open&apos;]"/>
+    <ObjectMapEntry id="Open Dialog" locator="//Dialog[@caption=&apos;Open&apos;]">
+      <ObjectMapEntry id="Cancel" locator="//PushButton[@caption=&apos;Cancel&apos;]"/>
+      <ObjectMapEntry id="DirectUIHWND" locator="//Control[@windowClassName=&apos;DirectUIHWND&apos;][2]"/>
+      <ObjectMapEntry id="File name" locator="//TextField[@caption=&apos;File name:&apos;]"/>
+      <ObjectMapEntry id="File name ComboBox" locator="//ComboBox[@caption=&apos;File name:&apos;][2]"/>
+      <ObjectMapEntry id="Files of type" locator="//Tree[@caption=&apos;Files of type:&apos;]"/>
+      <ObjectMapEntry id="Open" locator="//PushButton[@caption=&apos;Open&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Oscilloscope" locator="//MenuItem[@caption=&apos;Oscilloscope&apos;]"/>
+    <ObjectMapEntry id="Oscilloscope Window" locator="//Window[@caption=&apos;Oscilloscope&apos;]"/>
+    <ObjectMapEntry id="Peak Meter" locator="//MenuItem[@caption=&apos;Peak Meter&apos;]"/>
+    <ObjectMapEntry id="Peak Meter Window" locator="//Window[@caption=&apos;Peak Meter&apos;]"/>
+    <ObjectMapEntry id="Play" locator="//MenuItem[@caption=&apos;Play&apos;]"/>
+    <ObjectMapEntry id="Playback stopped" locator="//Control[@caption=&apos;Playback stopped.&apos;]"/>
+    <ObjectMapEntry id="Properties" locator="//MenuItem[@caption=&apos;Properties&apos;]"/>
+    <ObjectMapEntry id="Properties (3 items) -  Alison" locator="//Dialog[@caption=&apos;Properties (3 items) - &quot;Alison Wonderland - Easy&quot;, &quot;Moon Taxi - Let the Record Play&quot;, &quot;Strangers&quot;&apos;]">
+      <ObjectMapEntry id="ListView" locator="//ListView"/>
+      <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
+      <ObjectMapEntry id="TabControl" locator="//TabControl"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Properties (3 items) -  Whatever" locator="//Dialog[@caption=&apos;Properties (3 items) - &quot;Whatever It Takes&quot;, &quot;Scream&quot;, &quot;The High Road&quot;&apos;]">
+      <ObjectMapEntry id="ListView" locator="//ListView"/>
+      <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
+      <ObjectMapEntry id="TabControl" locator="//TabControl"/>
+      <ObjectMapEntry id="TextField" locator="//TextField"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Properties -  Alison Wonderland - Easy" locator="//Dialog[@caption=&apos;Properties - &quot;Alison Wonderland - Easy&quot;&apos;]"/>
+    <ObjectMapEntry id="Properties -  Scream" locator="//Dialog[@caption=&apos;Properties - &quot;Scream&quot;&apos;]">
+      <ObjectMapEntry id="Copy" locator="//MenuItem[@caption=&apos;Copy&apos;]"/>
+      <ObjectMapEntry id="ListView" locator="//ListView"/>
+      <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
+      <ObjectMapEntry id="TabControl" locator="//TabControl"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Properties -  Whatever It Takes" locator="//Dialog[@caption=&apos;Properties - &quot;Whatever It Takes&quot;&apos;]">
+      <ObjectMapEntry id="Copy" locator="//MenuItem[@caption=&apos;Copy&apos;]"/>
+      <ObjectMapEntry id="ListView" locator="//ListView"/>
+      <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
+      <ObjectMapEntry id="TabControl" locator="//TabControl"/>
+      <ObjectMapEntry id="TextField" locator="//TextField"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="PushToolItem" locator="//PushToolItem[2]"/>
+    <ObjectMapEntry id="PushToolItem2" locator="//PushToolItem"/>
+    <ObjectMapEntry id="PushToolItem3" locator="//PushToolItem[3]"/>
+    <ObjectMapEntry id="PushToolItem5" locator="//PushToolItem[5]"/>
+    <ObjectMapEntry id="Quick convert" locator="//MenuItem[@caption=&apos;Quick convert&apos;]"/>
+    <ObjectMapEntry id="Quick Convert" locator="//Dialog[@caption=&apos;Quick Convert&apos;]">
+      <ObjectMapEntry id="Convert" locator="//PushButton[@caption=&apos;Convert&apos;]"/>
+      <ObjectMapEntry id="ListView" locator="//ListView"/>
+      <ObjectMapEntry id="Save As" locator="//Dialog[@caption=&apos;Save As&apos;]">
+        <ObjectMapEntry id="Save" locator="//PushButton[@caption=&apos;Save&apos;]"/>
+      </ObjectMapEntry>
+      <ObjectMapEntry id="Transcode warning" locator="//Dialog[@caption=&apos;Transcode warning&apos;]">
+        <ObjectMapEntry id="Yes" locator="//PushButton[@caption=&apos;Yes&apos;]"/>
+      </ObjectMapEntry>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Remove duplicates" locator="//MenuItem[@caption=&apos;Remove duplicates&apos;]"/>
+    <ObjectMapEntry id="Remove playlist" locator="//MenuItem[@caption=&apos;Remove playlist&apos;]"/>
+    <ObjectMapEntry id="Rename to" locator="//MenuItem[@caption=&apos;Rename to&apos;]"/>
+    <ObjectMapEntry id="Save playlist" locator="//MenuItem[@caption=&apos;Save playlist&apos;]"/>
+    <ObjectMapEntry id="Save Playlist" locator="//Dialog[@caption=&apos;Save Playlist&apos;]">
+      <ObjectMapEntry id="Cancel" locator="//PushButton[@caption=&apos;Cancel&apos;]"/>
+      <ObjectMapEntry id="Confirm Save As" locator="//Dialog[@caption=&apos;Confirm Save As&apos;]">
+        <ObjectMapEntry id="Yes" locator="//PushButton[@caption=&apos;Yes&apos;]"/>
+      </ObjectMapEntry>
+      <ObjectMapEntry id="DirectUIHWND" locator="//Control[@windowClassName=&apos;DirectUIHWND&apos;][2]"/>
+      <ObjectMapEntry id="Save" locator="//PushButton[@caption=&apos;Save&apos;]"/>
+      <ObjectMapEntry id="TextField" locator="//TextField"/>
+      <ObjectMapEntry id="Tree" locator="//Tree"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Stop" locator="//MenuItem[@caption=&apos;Stop&apos;]"/>
+    <ObjectMapEntry id="{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}" locator="//Control[@windowClassName=&apos;{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}&apos;]"/>
+    <ObjectMapEntry id="{5C0890EE-4552-4dcf-8943-3F1563A13F1D}" locator="//Control[@windowClassName=&apos;{5C0890EE-4552-4dcf-8943-3F1563A13F1D}&apos;][2]"/>
+  </ObjectMapEntry>
+</ObjectMap>

@@ -1,0 +1,14 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="Three Days Grace -  Transit Of" locator="/Window[@caption=&apos;Three Days Grace - [Transit Of Venus #03] The High Road  [foobar2000]&apos;]">
+    <ObjectMapEntry id="ATL ToolbarWindow32" locator="//Control[@windowClassName=&apos;ATL:ToolbarWindow32&apos;]"/>
+    <ObjectMapEntry id="Next" locator="//MenuItem[@caption=&apos;Next&apos;]"/>
+    <ObjectMapEntry id="Pause" locator="//MenuItem[@caption=&apos;Pause&apos;]"/>
+    <ObjectMapEntry id="Play" locator="//MenuItem[@caption=&apos;Play&apos;]"/>
+    <ObjectMapEntry id="PushToolItem" locator="//PushToolItem[3]"/>
+    <ObjectMapEntry id="PushToolItem5" locator="//PushToolItem[5]"/>
+    <ObjectMapEntry id="Stop" locator="//MenuItem[@caption=&apos;Stop&apos;]"/>
+    <ObjectMapEntry id="{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}" locator="//Control[@windowClassName=&apos;{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}&apos;]"/>
+    <ObjectMapEntry id="{596C5150-D8FF-4ed4-81AB-99B3DDA08AF1}" locator="//Control[@windowClassName=&apos;{596C5150-D8FF-4ed4-81AB-99B3DDA08AF1}&apos;]"/>
+    <ObjectMapEntry id="{79F54135-1A0A-4503-99D2-E04F942E5160}" locator="//Control[@windowClassName=&apos;{79F54135-1A0A-4503-99D2-E04F942E5160}&apos;]"/>
+  </ObjectMapEntry>
+</ObjectMap>

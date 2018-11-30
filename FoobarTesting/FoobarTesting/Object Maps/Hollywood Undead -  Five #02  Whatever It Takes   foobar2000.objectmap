@@ -1,0 +1,23 @@
+<ObjectMap version="1">
+  <ObjectMapEntry id="Hollywood Undead -  Five #02  Whatever It Takes   foobar2000" locator="/Window[@caption=&apos;Hollywood Undead - [Five #02] Whatever It Takes  [foobar2000]&apos;]">
+    <ObjectMapEntry id="ATL ToolbarWindow32" locator="//Control[@windowClassName=&apos;ATL:ToolbarWindow32&apos;]"/>
+    <ObjectMapEntry id="Confirm File Removal" locator="//Dialog[@caption=&apos;Confirm File Removal&apos;]">
+      <ObjectMapEntry id="Yes" locator="//PushButton[@caption=&apos;Yes&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Delete file" locator="//MenuItem[@caption=&apos;Delete file&apos;]"/>
+    <ObjectMapEntry id="Next" locator="//MenuItem[@caption=&apos;Next&apos;]"/>
+    <ObjectMapEntry id="Open" locator="//Dialog[@caption=&apos;Open&apos;]">
+      <ObjectMapEntry id="Open" locator="//PushButton[@caption=&apos;Open&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Oscilloscope" locator="//Window[@caption=&apos;Oscilloscope&apos;]">
+      <ObjectMapEntry id="100%" locator="//MenuItem[@caption=&apos;100%&apos;]"/>
+      <ObjectMapEntry id="50%" locator="//MenuItem[@caption=&apos;50%&apos;]"/>
+      <ObjectMapEntry id="600%" locator="//MenuItem[@caption=&apos;600%&apos;]"/>
+      <ObjectMapEntry id="Low Quality Mode" locator="//MenuItem[@caption=&apos;Low Quality Mode&apos;]"/>
+      <ObjectMapEntry id="{79F54135-1A0A-4503-99D2-E04F942E5160}" locator="//Control[@windowClassName=&apos;{79F54135-1A0A-4503-99D2-E04F942E5160}&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Oscilloscope MenuItem" locator="//MenuItem[@caption=&apos;Oscilloscope&apos;]"/>
+    <ObjectMapEntry id="PushToolItem" locator="//PushToolItem[5]"/>
+    <ObjectMapEntry id="{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}" locator="//Control[@windowClassName=&apos;{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}&apos;]"/>
+  </ObjectMapEntry>
+</ObjectMap>
