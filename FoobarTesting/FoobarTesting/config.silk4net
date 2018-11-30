@@ -11,7 +11,7 @@
   <agentOptions>
     <entry>
       <string>OPT_OBJECT_ENABLED_TIMEOUT</string>
-      <int>10000</int>
+      <int>20000</int>
     </entry>
   </agentOptions>
 </recorderProject>

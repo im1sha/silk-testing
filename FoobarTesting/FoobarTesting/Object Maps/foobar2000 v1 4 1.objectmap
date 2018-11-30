@@ -27,7 +27,10 @@
       <ObjectMapEntry id="OK" locator="//PushButton[@caption=&apos;OK&apos;]"/>
       <ObjectMapEntry id="Remove" locator="//PushButton[@caption=&apos;Remove&apos;]"/>
     </ObjectMapEntry>
-    <ObjectMapEntry id="Converter Output" locator="//Dialog[@caption=&apos;Converter Output&apos;]"/>
+    <ObjectMapEntry id="Converter Output" locator="//Dialog[@caption=&apos;Converter Output&apos;]">
+      <ObjectMapEntry id="{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}" locator="//Control[@windowClassName=&apos;{4B94B650-C2D8-40de-A0AD-E8FADF62D56C}&apos;]"/>
+    </ObjectMapEntry>
+    <ObjectMapEntry id="Converting" locator="//Dialog[@caption=&apos;Converting ...&apos;]"/>
     <ObjectMapEntry id="File Operations Setup" locator="//Dialog[@caption=&apos;File Operations Setup&apos;]">
       <ObjectMapEntry id="Close" locator="//PushButton[@caption=&apos;Close&apos;]"/>
       <ObjectMapEntry id="File name pattern" locator="//TextField[@caption=&apos;File name pattern:&apos;]"/>
@@ -94,7 +97,11 @@
       <ObjectMapEntry id="Convert" locator="//PushButton[@caption=&apos;Convert&apos;]"/>
       <ObjectMapEntry id="ListView" locator="//ListView"/>
       <ObjectMapEntry id="Save As" locator="//Dialog[@caption=&apos;Save As&apos;]">
+        <ObjectMapEntry id="Confirm Save As" locator="//Dialog[@caption=&apos;Confirm Save As&apos;]">
+          <ObjectMapEntry id="Yes" locator="//PushButton[@caption=&apos;Yes&apos;]"/>
+        </ObjectMapEntry>
         <ObjectMapEntry id="Save" locator="//PushButton[@caption=&apos;Save&apos;]"/>
+        <ObjectMapEntry id="Tree" locator="//Tree"/>
       </ObjectMapEntry>
       <ObjectMapEntry id="Transcode warning" locator="//Dialog[@caption=&apos;Transcode warning&apos;]">
         <ObjectMapEntry id="Yes" locator="//PushButton[@caption=&apos;Yes&apos;]"/>

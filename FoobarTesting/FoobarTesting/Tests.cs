@@ -67,12 +67,12 @@ namespace FoobarTesting
 
         private void LoadFiles(Window window, bool withRemoving = true)
         {
-            
+
             if (withRemoving)
             {
                 window.SetActive();
                 window.Control(grid).TypeKeys("<Left Ctrl+a>");
-                window.Control(grid).TypeKeys("<Delete>");              
+                window.Control(grid).TypeKeys("<Delete>");
             }
 
             window.SetActive();
@@ -89,7 +89,7 @@ namespace FoobarTesting
             addFiles.Control("DirectUIHWND").TypeKeys("<Left Ctrl+a>");
 
             addFiles.PushButton("Open").Select();
-           
+
             if (withRemoving)
             {
                 CheckProperties(window, expectedProperty);
@@ -109,7 +109,7 @@ namespace FoobarTesting
 
             property.TypeKeys("<Left Ctrl+c>");
             Assert.AreEqual(expectedFileNames, Clipboard.GetText());
-            property.PushButton("OK").Select();           
+            property.PushButton("OK").Select();
         }
 
         [TestMethod]
@@ -143,13 +143,13 @@ namespace FoobarTesting
             savePlaylist.TextField("TextField").SetText(playlist);
             savePlaylist.TextField("TextField").TypeKeys("<Enter>");
 
-            if (savePlaylist.GetChildren().Count != 0)           
+            if (savePlaylist.GetChildren().Count != 0)
             {
                 Dialog confirmSaveAs = savePlaylist.Dialog("Confirm Save As");
                 confirmSaveAs.SetActive();
-                confirmSaveAs.PushButton("Yes").Select();  
-            }                
-                        
+                confirmSaveAs.PushButton("Yes").Select();
+            }
+
             foobar2000V141.SetActive();
             foobar2000V141.Control("ATL ToolbarWindow32").TextClick("File");
             foobar2000V141.MenuItem("Load playlist").Select();
@@ -213,7 +213,7 @@ namespace FoobarTesting
             }
 
             Assert.AreNotEqual(firstPositionIsLess[0], firstPositionIsLess[1]);
-            Assert.AreNotEqual(firstPositionIsLess[checksInTest + 0], 
+            Assert.AreNotEqual(firstPositionIsLess[checksInTest + 0],
                 firstPositionIsLess[checksInTest + 1]);
 
             foobar2000V141.Close();
@@ -242,8 +242,8 @@ namespace FoobarTesting
                 Window w = _desktop.Window(expectedHeaders[i]);
                 w.Control("ATL ToolbarWindow32").TextClick("Playback");
                 w.MenuItem("Next").Select();
-            }        
-            
+            }
+
             foobar2000V141 = _desktop.Window(app);
             foobar2000V141.Close();
         }
@@ -255,18 +255,18 @@ namespace FoobarTesting
             foobar2000V141.SetActive();
             foobar2000V141.Control("ATL ToolbarWindow32").TextClick("View");
             foobar2000V141.MenuItem("Oscilloscope").Select();
-            
+
             Window oscilloscope = foobar2000V141.Window("Oscilloscope Window");
             oscilloscope.Close();
             foobar2000V141.Control("ATL ToolbarWindow32").TextClick("View");
             foobar2000V141.MenuItem("Peak Meter").Select();
-            
+
             Window peakMeter = foobar2000V141.Window("Peak Meter Window");
             peakMeter.SetActive();
             peakMeter.Close();
 
             foobar2000V141.SetActive();
-            foobar2000V141.Close();  
+            foobar2000V141.Close();
         }
 
         [TestMethod]
@@ -307,7 +307,7 @@ namespace FoobarTesting
                 foobar2000V141.Control(grid).TextClick(album);
                 foobar2000V141.Control(grid).TextClick(album, 1, ClickType.Right);
                 foobar2000V141.MenuItem("Rename to").Select();
-            
+
                 Dialog fileOperationsSetup = foobar2000V141.Dialog("File Operations Setup");
                 fileOperationsSetup.SetActive();
                 fileOperationsSetup.TextField("File name pattern").SetPosition(new TextPosition(0, 0));
@@ -321,7 +321,7 @@ namespace FoobarTesting
 
                 foobar2000V141.Control(grid).TextClick(album, 1, ClickType.Right);
                 foobar2000V141.MenuItem("Properties").Select();
-            
+
                 Dialog audioDialog = foobar2000V141.Dialog("Properties -  Whatever It Takes");
                 audioDialog.TabControl("TabControl").Select("Details");
 
@@ -346,28 +346,31 @@ namespace FoobarTesting
             foobar2000V141.Control(grid).TextClick("Hollywood Undead - Five");
             foobar2000V141.Control(grid).TextClick("Hollywood Undead - Five", 1, ClickType.Right);
             foobar2000V141.MenuItem("Quick convert").Select();
-            
+
             Dialog quickConvert = foobar2000V141.Dialog("Quick Convert");
             quickConvert.ListView("ListView").Select("Opus");
             quickConvert.PushButton("Convert").Select();
-            
+
             Dialog transcodeWarning = quickConvert.Dialog("Transcode warning");
             transcodeWarning.SetActive();
             transcodeWarning.PushButton("Yes").Select();
-            
+
             Dialog saveAs = quickConvert.Dialog("Save As");
             saveAs.PushButton("Save").Select();
-            
+                
+            Dialog converting = foobar2000V141.Dialog("Converting");
+            converting.WaitForDisappearance(15000);
+
             Dialog converterOutput = foobar2000V141.Dialog("Converter Output");
             converterOutput.SetActive();
             converterOutput.Close();
             foobar2000V141.SetActive();
             foobar2000V141.Control("ATL ToolbarWindow32").TextClick("File");
             foobar2000V141.MenuItem("Open").Select();
-            
+
             Dialog open = foobar2000V141.Dialog("Open Dialog");
             open.TextField("File name").SetPosition(new TextPosition(0, 0));
-            open.TextField("File name").SetText("Hollywood Undead - Whatever It Takes.opus");                      
+            open.TextField("File name").SetText("Hollywood Undead - Whatever It Takes.opus");
             open.PushButton("Open").Select();
 
             Window foobar2000NewWindow = _desktop.Window("Hollywood Undead -  Five #02  Whatever It Takes   foobar2000");
@@ -375,10 +378,10 @@ namespace FoobarTesting
             foobar2000NewWindow.Control(grid).TextClick("Hollywood Undead - Five", 1, ClickType.Right);
             foobar2000NewWindow.Control(grid).OpenContextMenu(new Point(186, 28));
             foobar2000NewWindow.MenuItem("Delete file").Select();
-            
+
             Dialog confirmFileRemoval = foobar2000NewWindow.Dialog("Confirm File Removal");
             confirmFileRemoval.PushButton("Yes").Select();
-            
+
             foobar2000V141 = _desktop.Window("foobar2000 v1 4 1");
             foobar2000V141.WaitForObject("Playback stopped");
 
@@ -394,7 +397,7 @@ namespace FoobarTesting
             foobar2000V141.SetActive();
             foobar2000V141.Control("ATL ToolbarWindow32").TextClick("File");
             foobar2000V141.MenuItem("Open").Select();
-            
+
             Dialog open = foobar2000V141.Dialog("Open Dialog");
             open.Tree("Files of type").Select(folders[0]);
             open.SetActive();
@@ -406,7 +409,7 @@ namespace FoobarTesting
             open.PushButton("Open").Select();
             open.TextField("File name").SetText("Thousand Foot Krutch - Scream.mp3");
             open.PushButton("Open").Select();
-            
+
             Window playingFoobar = _desktop.Window("Thousand Foot Krutch -  Welcome");
             playingFoobar.PushToolItem("PushToolItem2").Select();
 
@@ -415,11 +418,11 @@ namespace FoobarTesting
             foobar2000V141 = _desktop.Window("foobar2000 v1 4 1");
             foobar2000V141.Control(grid).TextClick("Thousand Foot Krutch - Welcome To The Masquerade", 1, ClickType.Right);
             foobar2000V141.MenuItem("Manage attached pictures").Select();
-            
+
             Dialog attachCoverDialog = foobar2000V141.Dialog("Attached Pictures  Thousand Foot Krutch - Scream mp3");
             attachCoverDialog.PushButton("Add").Select();
             attachCoverDialog.MenuItem("Front cover").Select();
-            
+
             Dialog choosePictureFileToEmbed = attachCoverDialog.Dialog("Choose picture file to embed");
             choosePictureFileToEmbed.TextField("File name").SetPosition(new TextPosition(0, 0));
             choosePictureFileToEmbed.TextField("File name").SetText("Untitled design.jpg");
@@ -430,7 +433,7 @@ namespace FoobarTesting
 
             foobar2000V141.Control(grid).TextClick("Thousand Foot Krutch - Welcome To The Masquerade", 1, ClickType.Right);
             foobar2000V141.MenuItem("Manage attached pictures").Select();
-            
+
             Dialog attachedPicturesThousandFootKrutchScreamMp32 = foobar2000V141.Dialog("Attached Pictures  Thousand Foot Krutch - Scream mp3");
             attachedPicturesThousandFootKrutchScreamMp32.ListView("ListView").Select("Front cover : 4000x6000 JPEG");
             attachedPicturesThousandFootKrutchScreamMp32.PushButton("Remove").Select();
@@ -457,3 +460,4 @@ namespace FoobarTesting
         }
     }
 }
+
